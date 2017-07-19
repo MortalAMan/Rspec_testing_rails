@@ -1,0 +1,6 @@
+<h1>Delete Classroom</h2>
+
+<%= render 'form', classroom: @classrooms.destroy %>
+
+<%= link_to 'Destroy', classrooms, method: :delete, data: { confirm: 'Are you sure?' } %>
+
